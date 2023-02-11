@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+  background-image: url(resimler/arkaplan.jpg); 
+  background-repeat: no-repeat; 
+  width: 700px;
+  height: 700px;
+}
+.baslık{
+    font-size: 60px;
+    color: red;
+    text-decoration: underline;
+    position: relative;
+    left: 775px;
+    top: 130px;
+}
+
+.iletisim {
+    border-style: solid;
+    border-color: yellow;
+    background-image: url(resimler/valo.jpg);
+    border-radius: 2rem 2rem 2rem 2rem;
+    width: 425px;
+    height: 450px;
+    position: relative;
+    left: 750px;
+    top: 200px;
+}
+
+.ad{
+    border-width: 2px;
+    border-color:black;
+    border-radius: 0.2rem 0.5rem 0.2rem 0.5rem;
+    width: 300px;
+    height: 30px;
+    position: relative;
+    left: 25px;
+    top: 15px;
+}
+
+.message{
+    border-width: 2px;
+    border-color: black;
+    border-radius: 0.2rem 0.5rem 0.2rem 0.5rem;
+    width: 300px;
+    height: 100px;
+    position: relative;
+    left: 25px;
+    bottom: 10px;
+}
+
+.ayar{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    position: relative;
+    left: 20px;
+    top: 15px;
+}
+
+.ayar1{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    position: relative;
+    left: 20px;
+    bottom: 16px;
+}
+
+.gonder{
+    background: #f39c12;
+    color: #fff;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: large;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 2rem;
+    left: 60px;
+    bottom: 20px;
+    width: 200px;
+    height: 60px;
+    cursor: pointer;
+    transition-duration: 0.4s;      
+}
+
+.gonder:hover{
+    background: #fff;
+    box-shadow: 0px 2px 20px 10px #97B1BF;
+    color: #000;
+}
